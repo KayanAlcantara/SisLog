@@ -1,5 +1,3 @@
-package SISLOGBD;
-
 //conexão com o banco de dados SGE
 import java.sql.DriverManager;
 import java.sql.Connection;
@@ -17,7 +15,7 @@ public class conectaBD {
      }
     
     
-    public static void notmain(String[] args) {
+    public static void main(String[] args) {
         try{
             conectaBD conectaBD = new conectaBD();
         }
