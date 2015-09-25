@@ -29,7 +29,7 @@ public class UsaProduto {
         quantidade = Utilidades.lerInt();
         produto.setQuantidade(quantidade);
 
-        SimpleDateFormat hoje = new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat hoje = new SimpleDateFormat("dd/MM/yyyy "+"HH:mm:ss");
         data = hoje.format(new Date()); 
         produto.setData(data);
 
@@ -55,7 +55,7 @@ public class UsaProduto {
         quantidade = Utilidades.lerInt();
         produto.setQuantidade(quantidade);
        
-        SimpleDateFormat hoje = new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat hoje = new SimpleDateFormat("dd/MM/yyyy "+"HH:mm:ss");
         data = hoje.format(new Date()); 
         produto.setData(data);
         
