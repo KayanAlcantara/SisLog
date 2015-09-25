@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Menu_Geral {
     //classe menu, para estabelecer as opções ao usuário.   
-
+    public static void menu(){
         
         System.out.println("Gestor de Estoque");
         //Faz referência a linha 58.
