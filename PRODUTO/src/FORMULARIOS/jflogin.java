@@ -1,6 +1,6 @@
 package FORMULARIOS;
+import SISLOGBD.conectaBD;
 import java.sql.*;
-import SISLOGBD.ConectaBD;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
@@ -14,7 +14,7 @@ public class jflogin extends javax.swing.JFrame {
 
    
     public jflogin() throws SQLException, ClassNotFoundException {
-        con=ConectaBD.conectaBD();
+        con=conectaBD.conectaBD();
         initComponents();
         this.setLocationRelativeTo(null); //COMANDO SERVE PARA CENTRALIZAR O FORMULARIO
        }
