@@ -57,7 +57,7 @@
     <Component class="javax.swing.JButton" name="ConfirmacaoSaidaSim">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\03001072180\Documents\NetBeansProjects\SisLog\PRODUTO\src\PacoteInterface\icons\accept.png"/>
+          <Image iconType="3" name="/PacoteInterface/icones/accept.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Sim"/>
       </Properties>
@@ -65,7 +65,7 @@
     <Component class="javax.swing.JButton" name="ConfirmacaoSaidaNao">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\03001072180\Documents\NetBeansProjects\SisLog\PRODUTO\src\PacoteInterface\icons\cancel.png"/>
+          <Image iconType="3" name="/PacoteInterface/icones/cross.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="N&#xe3;o"/>
       </Properties>

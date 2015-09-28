@@ -33,10 +33,10 @@ public class ConfirmacaoSaidaProduto extends javax.swing.JPanel {
 
         jLabel1.setText("Deseja visualizar quantidade atual?");
 
-        ConfirmacaoSaidaSim.setIcon(new javax.swing.ImageIcon("C:\\Users\\03001072180\\Documents\\NetBeansProjects\\SisLog\\PRODUTO\\src\\PacoteInterface\\icons\\accept.png")); // NOI18N
+        ConfirmacaoSaidaSim.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/accept.png"))); // NOI18N
         ConfirmacaoSaidaSim.setText("Sim");
 
-        ConfirmacaoSaidaNao.setIcon(new javax.swing.ImageIcon("C:\\Users\\03001072180\\Documents\\NetBeansProjects\\SisLog\\PRODUTO\\src\\PacoteInterface\\icons\\cancel.png")); // NOI18N
+        ConfirmacaoSaidaNao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/cross.png"))); // NOI18N
         ConfirmacaoSaidaNao.setText("Não");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
