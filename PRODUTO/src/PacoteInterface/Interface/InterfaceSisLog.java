@@ -26,7 +26,6 @@ public class InterfaceSisLog extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
         AbaPrincipal = new javax.swing.JTabbedPane();
         AbaCadastros = new javax.swing.JPanel();
         AbaCadastrosLabelCodigo = new javax.swing.JLabel();
@@ -66,8 +65,6 @@ public class InterfaceSisLog extends javax.swing.JFrame {
         BotaoSair = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jLabel1.setText("Usuário: DonRatom         Data: 25/09/15   Hora: 19:15");
 
         AbaCadastrosLabelCodigo.setText("Código");
 
@@ -346,10 +343,6 @@ public class InterfaceSisLog extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1)
-                .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addComponent(AbaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 637, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
@@ -357,8 +350,7 @@ public class InterfaceSisLog extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(20, 20, 20)
                 .addComponent(AbaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -444,7 +436,6 @@ public class InterfaceSisLog extends javax.swing.JFrame {
     private javax.swing.JMenu BotaoUsuario;
     private javax.swing.JMenuItem BotaoUsuarioEditar;
     private javax.swing.JMenuItem BotaoUsuarioNovo;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
