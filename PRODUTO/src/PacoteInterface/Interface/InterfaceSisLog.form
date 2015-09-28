@@ -4,43 +4,32 @@
   <NonVisualComponents>
     <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
       <SubComponents>
-        <Menu class="javax.swing.JMenu" name="jMenu1">
+        <Menu class="javax.swing.JMenu" name="BotaoArquivo">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\03001072180\Documents\NetBeansProjects\SisLog\PRODUTO\src\Interface\icons\blog.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Arquivo"/>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu2">
+        <Menu class="javax.swing.JMenu" name="BotaoGerenciamento">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\03001072180\Documents\NetBeansProjects\SisLog\PRODUTO\src\Interface\icons\cog.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Gerenciamento"/>
           </Properties>
           <SubComponents>
-            <Menu class="javax.swing.JMenu" name="jMenu4">
+            <Menu class="javax.swing.JMenu" name="BotaoUsuario">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\03001072180\Documents\NetBeansProjects\SisLog\PRODUTO\src\Interface\icons\user.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Usu&#xe1;rio"/>
               </Properties>
               <SubComponents>
-                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+                <MenuItem class="javax.swing.JMenuItem" name="BotaoUsuarioNovo">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\03001072180\Documents\NetBeansProjects\SisLog\PRODUTO\src\Interface\icons\user_silhouette.png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Novo"/>
                   </Properties>
                 </MenuItem>
-                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+                <MenuItem class="javax.swing.JMenuItem" name="BotaoUsuarioEditar">
                   <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\03001072180\Documents\NetBeansProjects\SisLog\PRODUTO\src\Interface\icons\application_edit.png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="Editar"/>
                   </Properties>
                 </MenuItem>
@@ -48,11 +37,8 @@
             </Menu>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu3">
+        <Menu class="javax.swing.JMenu" name="BotaoSair">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\03001072180\Documents\NetBeansProjects\SisLog\PRODUTO\src\Interface\icons\door_in.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Sair"/>
           </Properties>
         </Menu>
@@ -88,7 +74,7 @@
               <EmptySpace max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
-              <Component id="jTabbedPane2" min="-2" pref="637" max="-2" attributes="0"/>
+              <Component id="AbaPrincipal" min="-2" pref="637" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -98,7 +84,7 @@
           <Group type="102" attributes="0">
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jTabbedPane2" min="-2" pref="315" max="-2" attributes="0"/>
+              <Component id="AbaPrincipal" min="-2" pref="315" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -109,11 +95,11 @@
         <Property name="text" type="java.lang.String" value="Usu&#xe1;rio: DonRatom         Data: 25/09/15   Hora: 19:15"/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+    <Container class="javax.swing.JTabbedPane" name="AbaPrincipal">
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
       <SubComponents>
-        <Container class="javax.swing.JPanel" name="jPanel1">
+        <Container class="javax.swing.JPanel" name="AbaCadastros">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
               <JTabbedPaneConstraints tabName="Cadastros">
@@ -128,34 +114,34 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaCadastrosLabelCodigo" min="-2" max="-2" attributes="0"/>
                           <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="jTextField1" alignment="0" pref="61" max="32767" attributes="0"/>
-                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AbaCadastrosCaixaCodigo" alignment="0" pref="61" max="32767" attributes="0"/>
+                              <Component id="AbaCadastrosLabelQuantidade" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaCadastrosCaixaQuantidade" alignment="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jComboBox1" min="-2" pref="365" max="-2" attributes="0"/>
+                                  <Component id="AbaCadastrosLabelFornecedor" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AbaCadastrosCaixaFornecedor" min="-2" pref="365" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTextField4" max="32767" attributes="0"/>
+                                  <Component id="AbaCadastrosCaixaNotaFiscal" max="32767" attributes="0"/>
                                   <Group type="102" attributes="0">
-                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      <Component id="AbaCadastrosLabelNotaFiscal" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="0" pref="98" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaCadastrosLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Component id="jTextField3" alignment="1" max="32767" attributes="0"/>
+                          <Component id="AbaCadastrosCaixaNomeDoProduto" alignment="1" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -166,25 +152,25 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaCadastrosLabelCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaCadastrosLabelFornecedor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaCadastrosLabelNotaFiscal" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaCadastrosCaixaCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaCadastrosCaixaFornecedor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaCadastrosCaixaNotaFiscal" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaCadastrosLabelQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaCadastrosLabelNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaCadastrosCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaCadastrosCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="178" max="32767" attributes="0"/>
                   </Group>
@@ -192,14 +178,14 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel2">
+            <Component class="javax.swing.JLabel" name="AbaCadastrosLabelCodigo">
               <Properties>
                 <Property name="text" type="java.lang.String" value="C&#xf3;digo"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField1">
+            <Component class="javax.swing.JTextField" name="AbaCadastrosCaixaCodigo">
             </Component>
-            <Component class="javax.swing.JComboBox" name="jComboBox1">
+            <Component class="javax.swing.JComboBox" name="AbaCadastrosCaixaFornecedor">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="4">
@@ -211,31 +197,31 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AbaCadastrosCaixaFornecedorActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="jLabel3">
+            <Component class="javax.swing.JLabel" name="AbaCadastrosLabelFornecedor">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Fornecedor"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="jLabel4">
+            <Component class="javax.swing.JLabel" name="AbaCadastrosLabelQuantidade">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Quantidade"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField2">
+            <Component class="javax.swing.JTextField" name="AbaCadastrosCaixaQuantidade">
             </Component>
-            <Component class="javax.swing.JLabel" name="jLabel5">
+            <Component class="javax.swing.JLabel" name="AbaCadastrosLabelNomeDoProduto">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Nome do Produto"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField3">
+            <Component class="javax.swing.JTextField" name="AbaCadastrosCaixaNomeDoProduto">
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField4">
+            <Component class="javax.swing.JTextField" name="AbaCadastrosCaixaNotaFiscal">
             </Component>
-            <Component class="javax.swing.JLabel" name="jLabel6">
+            <Component class="javax.swing.JLabel" name="AbaCadastrosLabelNotaFiscal">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Nota Fiscal"/>
               </Properties>
@@ -258,7 +244,7 @@
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaConsulta" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -270,7 +256,7 @@
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaConsulta" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -278,7 +264,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Container class="javax.swing.JPanel" name="jPanel9">
+            <Container class="javax.swing.JPanel" name="AbaConsulta">
 
               <Layout>
                 <DimensionLayout dim="0">
@@ -287,10 +273,10 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AbaConsultaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
-                              <Component id="jTextField21" alignment="0" pref="612" max="32767" attributes="0"/>
+                              <Component id="AbaConsultaCaixaNomeDoProduto" alignment="0" pref="612" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -300,21 +286,21 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaConsultaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jTextField21" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaConsultaCaixaNomeDoProduto" min="-2" max="-2" attributes="0"/>
                           <EmptySpace pref="236" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel26">
+                <Component class="javax.swing.JLabel" name="AbaConsultaLabelNomeDoProduto">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Nome do Produto"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField21">
+                <Component class="javax.swing.JTextField" name="AbaConsultaCaixaNomeDoProduto">
                 </Component>
               </SubComponents>
             </Container>
@@ -336,7 +322,7 @@
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaRequisicao" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -348,7 +334,7 @@
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaRequisicao" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -356,7 +342,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Container class="javax.swing.JPanel" name="jPanel7">
+            <Container class="javax.swing.JPanel" name="AbaRequisicao">
 
               <Layout>
                 <DimensionLayout dim="0">
@@ -365,15 +351,15 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
-                                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AbaRequisicaoLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="0" pref="450" max="32767" attributes="0"/>
                               </Group>
-                              <Component id="jTextField15" max="32767" attributes="0"/>
+                              <Component id="AbaRequisicaoCaixaNomeDoProduto" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jTextField14" min="-2" pref="61" max="-2" attributes="0"/>
-                              <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaRequisicaoCaixaQuantidade" min="-2" pref="61" max="-2" attributes="0"/>
+                              <Component id="AbaRequisicaoLabelQuantidade" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -384,13 +370,13 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaRequisicaoLabelNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaRequisicaoLabelQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jTextField15" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jTextField14" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaRequisicaoCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaRequisicaoCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="236" max="32767" attributes="0"/>
                       </Group>
@@ -398,19 +384,19 @@
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel19">
+                <Component class="javax.swing.JLabel" name="AbaRequisicaoLabelQuantidade">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Quantidade"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField14">
+                <Component class="javax.swing.JTextField" name="AbaRequisicaoCaixaQuantidade">
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel20">
+                <Component class="javax.swing.JLabel" name="AbaRequisicaoLabelNomeDoProduto">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Nome do Produto"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField15">
+                <Component class="javax.swing.JTextField" name="AbaRequisicaoCaixaNomeDoProduto">
                 </Component>
               </SubComponents>
             </Container>
@@ -432,7 +418,7 @@
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaSaida" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -444,7 +430,7 @@
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
+                          <Component id="AbaSaida" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -452,7 +438,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Container class="javax.swing.JPanel" name="jPanel8">
+            <Container class="javax.swing.JPanel" name="AbaSaida">
 
               <Layout>
                 <DimensionLayout dim="0">
@@ -460,21 +446,21 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jTextField12" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
-                              <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaSaidaCaixaCodigo" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                              <Component id="AbaSaidaLabelCodigo" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AbaSaidaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="0" pref="371" max="32767" attributes="0"/>
                               </Group>
-                              <Component id="jTextField18" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AbaSaidaCaixaNomeDoProduto" alignment="0" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jTextField17" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
-                              <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaSaidaCaixaQuantidade" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                              <Component id="AbaSaidaLabelQuantidade" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -485,15 +471,15 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaSaidaLabelCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaSaidaLabelNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaSaidaLabelQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jTextField12" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jTextField18" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jTextField17" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaSaidaCaixaCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaSaidaCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaSaidaCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="236" max="32767" attributes="0"/>
                       </Group>
@@ -501,28 +487,28 @@
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel13">
+                <Component class="javax.swing.JLabel" name="AbaSaidaLabelCodigo">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="C&#xf3;digo"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField12">
+                <Component class="javax.swing.JTextField" name="AbaSaidaCaixaCodigo">
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel16">
+                <Component class="javax.swing.JLabel" name="AbaSaidaLabelQuantidade">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Quantidade"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField17">
+                <Component class="javax.swing.JTextField" name="AbaSaidaCaixaQuantidade">
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel22">
+                <Component class="javax.swing.JLabel" name="AbaSaidaLabelNomeDoProduto">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Nome do Produto"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="jTextField18">
+                <Component class="javax.swing.JTextField" name="AbaSaidaCaixaNomeDoProduto">
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField18ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AbaSaidaCaixaNomeDoProdutoActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
