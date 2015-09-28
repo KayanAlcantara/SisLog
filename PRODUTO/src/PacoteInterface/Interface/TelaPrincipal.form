@@ -151,10 +151,12 @@
                           <Component id="AbaCadastrosLabelNotaFiscal" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="AbaCadastrosCaixaCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="AbaCadastrosCaixaFornecedor" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="AbaCadastrosCaixaNotaFiscal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="AbaCadastrosCaixaFornecedor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AbaCadastrosCaixaNotaFiscal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="AbaCadastrosCaixaCodigo" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -166,9 +168,9 @@
                           <Component id="AbaCadastrosCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="AbaCadastrosCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
-                      <EmptySpace pref="164" max="32767" attributes="0"/>
+                      <EmptySpace pref="157" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -288,9 +290,9 @@
                           <Component id="AbaConsultaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="AbaConsultaCaixaNomeDoProduto" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
-                          <EmptySpace pref="215" max="32767" attributes="0"/>
+                          <EmptySpace pref="208" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -386,9 +388,9 @@
                               <Component id="AbaRequisicaoCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="AbaRequisicaoCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
-                          <EmptySpace pref="215" max="32767" attributes="0"/>
+                          <EmptySpace pref="208" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -498,9 +500,9 @@
                               <Component id="AbaSaidaCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="AbaSaidaCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jSeparator4" min="-2" pref="10" max="-2" attributes="0"/>
-                          <EmptySpace pref="215" max="32767" attributes="0"/>
+                          <EmptySpace pref="208" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
