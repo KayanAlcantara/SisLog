@@ -68,17 +68,20 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <Component id="AbaPrincipal" min="-2" pref="637" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          <Component id="AbaPrincipal" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="CampoHora" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-              <Component id="AbaPrincipal" min="-2" pref="315" max="-2" attributes="0"/>
+              <Component id="CampoHora" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="AbaPrincipal" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -243,9 +246,9 @@
                   <EmptySpace min="0" pref="632" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="AbaConsulta" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                          <Component id="AbaConsulta" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -255,9 +258,9 @@
                   <EmptySpace min="0" pref="287" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="AbaConsulta" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                          <Component id="AbaConsulta" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -326,9 +329,9 @@
                   <EmptySpace min="0" pref="632" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="AbaRequisicao" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                          <Component id="AbaRequisicao" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -338,9 +341,9 @@
                   <EmptySpace min="0" pref="287" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="AbaRequisicao" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                          <Component id="AbaRequisicao" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -431,9 +434,9 @@
                   <EmptySpace min="0" pref="632" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="AbaSaida" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                          <Component id="AbaSaida" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -443,9 +446,9 @@
                   <EmptySpace min="0" pref="287" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="AbaSaida" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                          <Component id="AbaSaida" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -540,5 +543,12 @@
         </Container>
       </SubComponents>
     </Container>
+    <Component class="javax.swing.JLabel" name="CampoHora">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="produto.setData" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
   </SubComponents>
 </Form>
