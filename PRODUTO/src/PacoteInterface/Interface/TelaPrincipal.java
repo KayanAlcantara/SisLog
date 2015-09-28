@@ -47,11 +47,15 @@ public class TelaPrincipal extends javax.swing.JFrame {
         abaCadastrosCaixaNotaFiscal = new javax.swing.JTextField();
         abaCadastrosLabelNotaFiscal = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
+        abaCadastroBotaoSalvar = new javax.swing.JButton();
+        abaCadastrosBotaoLimpar = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         abaConsulta = new javax.swing.JPanel();
         abaConsultaLabelNomeDoProduto = new javax.swing.JLabel();
         abaConsultaCaixaNomeDoProduto = new javax.swing.JTextField();
         jSeparator2 = new javax.swing.JSeparator();
+        abaConsultaBotaoConsultar = new javax.swing.JButton();
+        abaConsultaBotaoLimpar = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         abaRequisicao = new javax.swing.JPanel();
         abaRequisicaoLabelQuantidade = new javax.swing.JLabel();
@@ -59,6 +63,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
         abaRequisicaoLabelNomeDoProduto = new javax.swing.JLabel();
         abaRequisicaoCaixaNomeDoProduto = new javax.swing.JTextField();
         jSeparator3 = new javax.swing.JSeparator();
+        abaRequisicaoBotaoRequisitar = new javax.swing.JButton();
+        abaRequisicaoBotaoNovoCadastro = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         abaSaida = new javax.swing.JPanel();
         abaSaidaLabelCodigo = new javax.swing.JLabel();
@@ -68,6 +74,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         abaSaidaLabelNomeDoProduto = new javax.swing.JLabel();
         abaSaidaCaixaNomeDoProduto = new javax.swing.JTextField();
         jSeparator4 = new javax.swing.JSeparator();
+        abaSaidaBotaoEnviar = new javax.swing.JButton();
         jHora = new javax.swing.JLabel();
         jData = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
@@ -76,6 +83,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         botaoUsuario = new javax.swing.JMenu();
         botaoUsuarioNovo = new javax.swing.JMenuItem();
         botaoUsuarioEditar = new javax.swing.JMenuItem();
+        botaoSobre = new javax.swing.JMenu();
         botaoSair = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -96,6 +104,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
         abaCadastrosLabelNomeDoProduto.setText("Nome do Produto");
 
         abaCadastrosLabelNotaFiscal.setText("Nota Fiscal");
+
+        abaCadastroBotaoSalvar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/disk.png"))); // NOI18N
+        abaCadastroBotaoSalvar.setText("Salvar");
+
+        abaCadastrosBotaoLimpar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/page.png"))); // NOI18N
+        abaCadastrosBotaoLimpar.setText("Limpar");
 
         javax.swing.GroupLayout abaCadastrosLayout = new javax.swing.GroupLayout(abaCadastros);
         abaCadastros.setLayout(abaCadastrosLayout);
@@ -127,7 +141,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
                             .addGroup(abaCadastrosLayout.createSequentialGroup()
                                 .addComponent(abaCadastrosLabelNomeDoProduto)
                                 .addGap(0, 0, Short.MAX_VALUE))
-                            .addComponent(abaCadastrosCaixaNomeDoProduto, javax.swing.GroupLayout.Alignment.TRAILING))))
+                            .addComponent(abaCadastrosCaixaNomeDoProduto, javax.swing.GroupLayout.Alignment.TRAILING)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, abaCadastrosLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(abaCadastrosBotaoLimpar)
+                        .addGap(18, 18, 18)
+                        .addComponent(abaCadastroBotaoSalvar)))
                 .addContainerGap())
         );
         abaCadastrosLayout.setVerticalGroup(
@@ -154,12 +173,22 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addComponent(abaCadastrosCaixaNomeDoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(168, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 138, Short.MAX_VALUE)
+                .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(abaCadastroBotaoSalvar)
+                    .addComponent(abaCadastrosBotaoLimpar))
+                .addContainerGap())
         );
 
         abaPrincipal.addTab("Cadastros", new javax.swing.ImageIcon("C:\\Users\\03001072180\\Documents\\NetBeansProjects\\SisLog\\PRODUTO\\src\\PacoteInterface\\icons\\application_add.png"), abaCadastros); // NOI18N
 
         abaConsultaLabelNomeDoProduto.setText("Nome do Produto");
+
+        abaConsultaBotaoConsultar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/find.png"))); // NOI18N
+        abaConsultaBotaoConsultar.setText("Consultar");
+
+        abaConsultaBotaoLimpar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/page.png"))); // NOI18N
+        abaConsultaBotaoLimpar.setText("Limpar");
 
         javax.swing.GroupLayout abaConsultaLayout = new javax.swing.GroupLayout(abaConsulta);
         abaConsulta.setLayout(abaConsultaLayout);
@@ -172,7 +201,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
                         .addComponent(abaConsultaLabelNomeDoProduto)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(abaConsultaCaixaNomeDoProduto, javax.swing.GroupLayout.DEFAULT_SIZE, 612, Short.MAX_VALUE)
-                    .addComponent(jSeparator2, javax.swing.GroupLayout.Alignment.TRAILING))
+                    .addComponent(jSeparator2, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, abaConsultaLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(abaConsultaBotaoLimpar)
+                        .addGap(18, 18, 18)
+                        .addComponent(abaConsultaBotaoConsultar)))
                 .addContainerGap())
         );
         abaConsultaLayout.setVerticalGroup(
@@ -184,7 +218,11 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addComponent(abaConsultaCaixaNomeDoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(219, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 189, Short.MAX_VALUE)
+                .addGroup(abaConsultaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(abaConsultaBotaoConsultar)
+                    .addComponent(abaConsultaBotaoLimpar))
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -200,7 +238,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 298, Short.MAX_VALUE)
+            .addGap(0, 304, Short.MAX_VALUE)
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel2Layout.createSequentialGroup()
                     .addGap(0, 0, 0)
@@ -213,6 +251,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
         abaRequisicaoLabelQuantidade.setText("Quantidade");
 
         abaRequisicaoLabelNomeDoProduto.setText("Nome do Produto");
+
+        abaRequisicaoBotaoRequisitar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/arrow_redo.png"))); // NOI18N
+        abaRequisicaoBotaoRequisitar.setText("Requisitar");
+
+        abaRequisicaoBotaoNovoCadastro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/add.png"))); // NOI18N
+        abaRequisicaoBotaoNovoCadastro.setText("Novo Cadastro");
 
         javax.swing.GroupLayout abaRequisicaoLayout = new javax.swing.GroupLayout(abaRequisicao);
         abaRequisicao.setLayout(abaRequisicaoLayout);
@@ -231,7 +275,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
                         .addGroup(abaRequisicaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(abaRequisicaoCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(abaRequisicaoLabelQuantidade)))
-                    .addComponent(jSeparator3))
+                    .addComponent(jSeparator3)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, abaRequisicaoLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(abaRequisicaoBotaoNovoCadastro)
+                        .addGap(18, 18, 18)
+                        .addComponent(abaRequisicaoBotaoRequisitar)))
                 .addContainerGap())
         );
         abaRequisicaoLayout.setVerticalGroup(
@@ -247,7 +296,11 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addComponent(abaRequisicaoCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(219, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 189, Short.MAX_VALUE)
+                .addGroup(abaRequisicaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(abaRequisicaoBotaoRequisitar)
+                    .addComponent(abaRequisicaoBotaoNovoCadastro))
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -263,7 +316,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 298, Short.MAX_VALUE)
+            .addGap(0, 304, Short.MAX_VALUE)
             .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel3Layout.createSequentialGroup()
                     .addGap(0, 0, 0)
@@ -284,6 +337,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 abaSaidaCaixaNomeDoProdutoActionPerformed(evt);
             }
         });
+
+        abaSaidaBotaoEnviar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/arrow_redo.png"))); // NOI18N
+        abaSaidaBotaoEnviar.setText("Enviar");
 
         javax.swing.GroupLayout abaSaidaLayout = new javax.swing.GroupLayout(abaSaida);
         abaSaida.setLayout(abaSaidaLayout);
@@ -306,7 +362,10 @@ public class TelaPrincipal extends javax.swing.JFrame {
                         .addGroup(abaSaidaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(abaSaidaCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(abaSaidaLabelQuantidade)))
-                    .addComponent(jSeparator4))
+                    .addComponent(jSeparator4)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, abaSaidaLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(abaSaidaBotaoEnviar)))
                 .addContainerGap())
         );
         abaSaidaLayout.setVerticalGroup(
@@ -324,7 +383,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addComponent(abaSaidaCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(219, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 189, Short.MAX_VALUE)
+                .addComponent(abaSaidaBotaoEnviar)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -340,7 +401,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 298, Short.MAX_VALUE)
+            .addGap(0, 304, Short.MAX_VALUE)
             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel4Layout.createSequentialGroup()
                     .addGap(0, 0, 0)
@@ -378,6 +439,10 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(botaoGerenciamento);
 
+        botaoSobre.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/exclamation.png"))); // NOI18N
+        botaoSobre.setText("Sobre");
+        jMenuBar1.add(botaoSobre);
+
         botaoSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/door_in.png"))); // NOI18N
         botaoSair.setText("Sair");
         jMenuBar1.add(botaoSair);
@@ -401,7 +466,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jHora)
                     .addComponent(jData))
-                .addGap(10, 10, 10)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(abaPrincipal))
         );
 
@@ -463,7 +528,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton abaCadastroBotaoSalvar;
     private javax.swing.JPanel abaCadastros;
+    private javax.swing.JButton abaCadastrosBotaoLimpar;
     private javax.swing.JTextField abaCadastrosCaixaCodigo;
     private javax.swing.JComboBox abaCadastrosCaixaFornecedor;
     private javax.swing.JTextField abaCadastrosCaixaNomeDoProduto;
@@ -475,15 +542,20 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel abaCadastrosLabelNotaFiscal;
     private javax.swing.JLabel abaCadastrosLabelQuantidade;
     private javax.swing.JPanel abaConsulta;
+    private javax.swing.JButton abaConsultaBotaoConsultar;
+    private javax.swing.JButton abaConsultaBotaoLimpar;
     private javax.swing.JTextField abaConsultaCaixaNomeDoProduto;
     private javax.swing.JLabel abaConsultaLabelNomeDoProduto;
     private javax.swing.JTabbedPane abaPrincipal;
     private javax.swing.JPanel abaRequisicao;
+    private javax.swing.JButton abaRequisicaoBotaoNovoCadastro;
+    private javax.swing.JButton abaRequisicaoBotaoRequisitar;
     private javax.swing.JTextField abaRequisicaoCaixaNomeDoProduto;
     private javax.swing.JTextField abaRequisicaoCaixaQuantidade;
     private javax.swing.JLabel abaRequisicaoLabelNomeDoProduto;
     private javax.swing.JLabel abaRequisicaoLabelQuantidade;
     private javax.swing.JPanel abaSaida;
+    private javax.swing.JButton abaSaidaBotaoEnviar;
     private javax.swing.JTextField abaSaidaCaixaCodigo;
     private javax.swing.JTextField abaSaidaCaixaNomeDoProduto;
     private javax.swing.JTextField abaSaidaCaixaQuantidade;
@@ -492,6 +564,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel abaSaidaLabelQuantidade;
     private javax.swing.JMenu botaoGerenciamento;
     private javax.swing.JMenu botaoSair;
+    private javax.swing.JMenu botaoSobre;
     private javax.swing.JMenu botaoUsuario;
     private javax.swing.JMenuItem botaoUsuarioEditar;
     private javax.swing.JMenuItem botaoUsuarioNovo;
