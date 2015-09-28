@@ -67,10 +67,10 @@ public class jflogin extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rafael Oliveira\\Documents\\NetBeansProjects\\SisLog\\SisLog\\PRODUTO\\src\\Interface\\icons\\user_business_boss.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\03001072180\\Documents\\NetBeansProjects\\SisLog\\PRODUTO\\src\\Interface\\icons\\user_business.png")); // NOI18N
         jLabel1.setText("Usuário");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rafael Oliveira\\Documents\\NetBeansProjects\\SisLog\\SisLog\\PRODUTO\\src\\Interface\\icons\\lock.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\03001072180\\Documents\\NetBeansProjects\\SisLog\\PRODUTO\\src\\Interface\\icons\\lock.png")); // NOI18N
         jLabel2.setText("Senha");
 
         javax.swing.GroupLayout jDesktopPane1Layout = new javax.swing.GroupLayout(jDesktopPane1);
@@ -86,7 +86,6 @@ public class jflogin extends javax.swing.JFrame {
                         .addComponent(pswd, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel2))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDesktopPane1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(50, 50, 50)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))

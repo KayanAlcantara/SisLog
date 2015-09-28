@@ -320,21 +320,21 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("Saída", jPanel4);
 
-        jMenu1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rafael Oliveira\\Documents\\led-icons\\blog.png")); // NOI18N
+        jMenu1.setIcon(new javax.swing.ImageIcon("C:\\Users\\03001072180\\Documents\\NetBeansProjects\\SisLog\\PRODUTO\\src\\Interface\\icons\\blog.png")); // NOI18N
         jMenu1.setText("Arquivo");
         jMenuBar1.add(jMenu1);
 
-        jMenu2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rafael Oliveira\\Documents\\led-icons\\cog.png")); // NOI18N
+        jMenu2.setIcon(new javax.swing.ImageIcon("C:\\Users\\03001072180\\Documents\\NetBeansProjects\\SisLog\\PRODUTO\\src\\Interface\\icons\\cog.png")); // NOI18N
         jMenu2.setText("Gerenciamento");
 
-        jMenu4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rafael Oliveira\\Documents\\led-icons\\user.png")); // NOI18N
+        jMenu4.setIcon(new javax.swing.ImageIcon("C:\\Users\\03001072180\\Documents\\NetBeansProjects\\SisLog\\PRODUTO\\src\\Interface\\icons\\user.png")); // NOI18N
         jMenu4.setText("Usuário");
 
-        jMenuItem1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rafael Oliveira\\Documents\\led-icons\\user_silhouette.png")); // NOI18N
+        jMenuItem1.setIcon(new javax.swing.ImageIcon("C:\\Users\\03001072180\\Documents\\NetBeansProjects\\SisLog\\PRODUTO\\src\\Interface\\icons\\user_silhouette.png")); // NOI18N
         jMenuItem1.setText("Novo");
         jMenu4.add(jMenuItem1);
 
-        jMenuItem2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rafael Oliveira\\Documents\\led-icons\\application_edit.png")); // NOI18N
+        jMenuItem2.setIcon(new javax.swing.ImageIcon("C:\\Users\\03001072180\\Documents\\NetBeansProjects\\SisLog\\PRODUTO\\src\\Interface\\icons\\application_edit.png")); // NOI18N
         jMenuItem2.setText("Editar");
         jMenu4.add(jMenuItem2);
 
@@ -342,7 +342,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu2);
 
-        jMenu3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rafael Oliveira\\Documents\\led-icons\\door_in.png")); // NOI18N
+        jMenu3.setIcon(new javax.swing.ImageIcon("C:\\Users\\03001072180\\Documents\\NetBeansProjects\\SisLog\\PRODUTO\\src\\Interface\\icons\\door_in.png")); // NOI18N
         jMenu3.setText("Sair");
         jMenuBar1.add(jMenu3);
 
