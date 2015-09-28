@@ -4,7 +4,7 @@
   <NonVisualComponents>
     <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
       <SubComponents>
-        <Menu class="javax.swing.JMenu" name="BotaoArquivo">
+        <Menu class="javax.swing.JMenu" name="botaoArquivo">
           <Properties>
             <Property name="text" type="java.lang.String" value="Arquivo"/>
           </Properties>
@@ -13,22 +13,22 @@
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
           </AuxValues>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="BotaoGerenciamento">
+        <Menu class="javax.swing.JMenu" name="botaoGerenciamento">
           <Properties>
             <Property name="text" type="java.lang.String" value="Gerenciamento"/>
           </Properties>
           <SubComponents>
-            <Menu class="javax.swing.JMenu" name="BotaoUsuario">
+            <Menu class="javax.swing.JMenu" name="botaoUsuario">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Usu&#xe1;rio"/>
               </Properties>
               <SubComponents>
-                <MenuItem class="javax.swing.JMenuItem" name="BotaoUsuarioNovo">
+                <MenuItem class="javax.swing.JMenuItem" name="botaoUsuarioNovo">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Novo"/>
                   </Properties>
                 </MenuItem>
-                <MenuItem class="javax.swing.JMenuItem" name="BotaoUsuarioEditar">
+                <MenuItem class="javax.swing.JMenuItem" name="botaoUsuarioEditar">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Editar"/>
                   </Properties>
@@ -37,7 +37,7 @@
             </Menu>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="BotaoSair">
+        <Menu class="javax.swing.JMenu" name="botaoSair">
           <Properties>
             <Property name="text" type="java.lang.String" value="Sair"/>
           </Properties>
@@ -68,30 +68,24 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="AbaPrincipal" alignment="0" max="32767" attributes="0"/>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="CampoHora" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
+          <Component id="abaPrincipal" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <Component id="CampoHora" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" max="-2" attributes="0"/>
-              <Component id="AbaPrincipal" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="26" max="32767" attributes="0"/>
+              <Component id="abaPrincipal" min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JTabbedPane" name="AbaPrincipal">
+    <Container class="javax.swing.JTabbedPane" name="abaPrincipal">
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
       <SubComponents>
-        <Container class="javax.swing.JPanel" name="AbaCadastros">
+        <Container class="javax.swing.JPanel" name="abaCadastros">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
               <JTabbedPaneConstraints tabName="Cadastros">
@@ -109,34 +103,34 @@
                           <Component id="jSeparator1" max="32767" attributes="0"/>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="AbaCadastrosLabelCodigo" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abaCadastrosLabelCodigo" min="-2" max="-2" attributes="0"/>
                                   <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                      <Component id="AbaCadastrosCaixaCodigo" alignment="0" pref="61" max="32767" attributes="0"/>
-                                      <Component id="AbaCadastrosLabelQuantidade" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="AbaCadastrosCaixaQuantidade" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="abaCadastrosCaixaCodigo" alignment="0" pref="61" max="32767" attributes="0"/>
+                                      <Component id="abaCadastrosLabelQuantidade" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="abaCadastrosCaixaQuantidade" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="AbaCadastrosLabelFornecedor" min="-2" max="-2" attributes="0"/>
-                                          <Component id="AbaCadastrosCaixaFornecedor" min="-2" pref="365" max="-2" attributes="0"/>
+                                          <Component id="abaCadastrosLabelFornecedor" min="-2" max="-2" attributes="0"/>
+                                          <Component id="abaCadastrosCaixaFornecedor" min="-2" pref="365" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="AbaCadastrosCaixaNotaFiscal" max="32767" attributes="0"/>
+                                          <Component id="abaCadastrosCaixaNotaFiscal" max="32767" attributes="0"/>
                                           <Group type="102" attributes="0">
-                                              <Component id="AbaCadastrosLabelNotaFiscal" min="-2" max="-2" attributes="0"/>
+                                              <Component id="abaCadastrosLabelNotaFiscal" min="-2" max="-2" attributes="0"/>
                                               <EmptySpace min="0" pref="98" max="32767" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
                                   <Group type="102" attributes="0">
-                                      <Component id="AbaCadastrosLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
+                                      <Component id="abaCadastrosLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
-                                  <Component id="AbaCadastrosCaixaNomeDoProduto" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="abaCadastrosCaixaNomeDoProduto" alignment="1" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -149,44 +143,44 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="AbaCadastrosLabelCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="AbaCadastrosLabelFornecedor" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="AbaCadastrosLabelNotaFiscal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="abaCadastrosLabelCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="abaCadastrosLabelFornecedor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="abaCadastrosLabelNotaFiscal" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="AbaCadastrosCaixaFornecedor" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="AbaCadastrosCaixaNotaFiscal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaCadastrosCaixaFornecedor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaCadastrosCaixaNotaFiscal" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="AbaCadastrosCaixaCodigo" min="-2" max="-2" attributes="0"/>
+                          <Component id="abaCadastrosCaixaCodigo" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="AbaCadastrosLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
-                          <Component id="AbaCadastrosLabelQuantidade" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="abaCadastrosLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
+                          <Component id="abaCadastrosLabelQuantidade" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="AbaCadastrosCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="AbaCadastrosCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="abaCadastrosCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="abaCadastrosCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
-                      <EmptySpace pref="157" max="32767" attributes="0"/>
+                      <EmptySpace pref="151" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="AbaCadastrosLabelCodigo">
+            <Component class="javax.swing.JLabel" name="abaCadastrosLabelCodigo">
               <Properties>
                 <Property name="text" type="java.lang.String" value="C&#xf3;digo"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="AbaCadastrosCaixaCodigo">
+            <Component class="javax.swing.JTextField" name="abaCadastrosCaixaCodigo">
             </Component>
-            <Component class="javax.swing.JComboBox" name="AbaCadastrosCaixaFornecedor">
+            <Component class="javax.swing.JComboBox" name="abaCadastrosCaixaFornecedor">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="4">
@@ -198,31 +192,31 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AbaCadastrosCaixaFornecedorActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abaCadastrosCaixaFornecedorActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="AbaCadastrosLabelFornecedor">
+            <Component class="javax.swing.JLabel" name="abaCadastrosLabelFornecedor">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Fornecedor"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="AbaCadastrosLabelQuantidade">
+            <Component class="javax.swing.JLabel" name="abaCadastrosLabelQuantidade">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Quantidade"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="AbaCadastrosCaixaQuantidade">
+            <Component class="javax.swing.JTextField" name="abaCadastrosCaixaQuantidade">
             </Component>
-            <Component class="javax.swing.JLabel" name="AbaCadastrosLabelNomeDoProduto">
+            <Component class="javax.swing.JLabel" name="abaCadastrosLabelNomeDoProduto">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Nome do Produto"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="AbaCadastrosCaixaNomeDoProduto">
+            <Component class="javax.swing.JTextField" name="abaCadastrosCaixaNomeDoProduto">
             </Component>
-            <Component class="javax.swing.JTextField" name="AbaCadastrosCaixaNotaFiscal">
+            <Component class="javax.swing.JTextField" name="abaCadastrosCaixaNotaFiscal">
             </Component>
-            <Component class="javax.swing.JLabel" name="AbaCadastrosLabelNotaFiscal">
+            <Component class="javax.swing.JLabel" name="abaCadastrosLabelNotaFiscal">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Nota Fiscal"/>
               </Properties>
@@ -255,7 +249,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="287" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="281" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
@@ -276,10 +270,10 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="AbaConsultaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
+                                  <Component id="abaConsultaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
-                              <Component id="AbaConsultaCaixaNomeDoProduto" alignment="0" pref="612" max="32767" attributes="0"/>
+                              <Component id="abaConsultaCaixaNomeDoProduto" alignment="0" pref="612" max="32767" attributes="0"/>
                               <Component id="jSeparator2" alignment="1" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -290,23 +284,23 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="AbaConsultaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
+                          <Component id="abaConsultaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="AbaConsultaCaixaNomeDoProduto" min="-2" max="-2" attributes="0"/>
+                          <Component id="abaConsultaCaixaNomeDoProduto" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
-                          <EmptySpace pref="208" max="32767" attributes="0"/>
+                          <EmptySpace pref="202" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="AbaConsultaLabelNomeDoProduto">
+                <Component class="javax.swing.JLabel" name="abaConsultaLabelNomeDoProduto">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Nome do Produto"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="AbaConsultaCaixaNomeDoProduto">
+                <Component class="javax.swing.JTextField" name="abaConsultaCaixaNomeDoProduto">
                 </Component>
                 <Component class="javax.swing.JSeparator" name="jSeparator2">
                 </Component>
@@ -338,7 +332,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="287" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="281" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
@@ -361,15 +355,15 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
-                                          <Component id="AbaRequisicaoLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
+                                          <Component id="abaRequisicaoLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="0" pref="450" max="32767" attributes="0"/>
                                       </Group>
-                                      <Component id="AbaRequisicaoCaixaNomeDoProduto" max="32767" attributes="0"/>
+                                      <Component id="abaRequisicaoCaixaNomeDoProduto" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="AbaRequisicaoCaixaQuantidade" min="-2" pref="61" max="-2" attributes="0"/>
-                                      <Component id="AbaRequisicaoLabelQuantidade" min="-2" max="-2" attributes="0"/>
+                                      <Component id="abaRequisicaoCaixaQuantidade" min="-2" pref="61" max="-2" attributes="0"/>
+                                      <Component id="abaRequisicaoLabelQuantidade" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Component id="jSeparator3" alignment="0" max="32767" attributes="0"/>
@@ -383,35 +377,35 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="AbaRequisicaoLabelNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="AbaRequisicaoLabelQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaRequisicaoLabelNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaRequisicaoLabelQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="AbaRequisicaoCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="AbaRequisicaoCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaRequisicaoCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaRequisicaoCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
-                          <EmptySpace pref="208" max="32767" attributes="0"/>
+                          <EmptySpace pref="202" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="AbaRequisicaoLabelQuantidade">
+                <Component class="javax.swing.JLabel" name="abaRequisicaoLabelQuantidade">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Quantidade"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="AbaRequisicaoCaixaQuantidade">
+                <Component class="javax.swing.JTextField" name="abaRequisicaoCaixaQuantidade">
                 </Component>
-                <Component class="javax.swing.JLabel" name="AbaRequisicaoLabelNomeDoProduto">
+                <Component class="javax.swing.JLabel" name="abaRequisicaoLabelNomeDoProduto">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Nome do Produto"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="AbaRequisicaoCaixaNomeDoProduto">
+                <Component class="javax.swing.JTextField" name="abaRequisicaoCaixaNomeDoProduto">
                 </Component>
                 <Component class="javax.swing.JSeparator" name="jSeparator3">
                 </Component>
@@ -443,7 +437,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="287" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="281" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
@@ -465,21 +459,21 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="AbaSaidaCaixaCodigo" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
-                                      <Component id="AbaSaidaLabelCodigo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="abaSaidaCaixaCodigo" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                                      <Component id="abaSaidaLabelCodigo" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="AbaSaidaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
+                                          <Component id="abaSaidaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="0" pref="371" max="32767" attributes="0"/>
                                       </Group>
-                                      <Component id="AbaSaidaCaixaNomeDoProduto" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="abaSaidaCaixaNomeDoProduto" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="AbaSaidaCaixaQuantidade" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
-                                      <Component id="AbaSaidaLabelQuantidade" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="abaSaidaCaixaQuantidade" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                                      <Component id="abaSaidaLabelQuantidade" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Component id="jSeparator4" alignment="0" max="32767" attributes="0"/>
@@ -493,46 +487,46 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="AbaSaidaLabelCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="AbaSaidaLabelNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="AbaSaidaLabelQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaSaidaLabelCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaSaidaLabelNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaSaidaLabelQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="AbaSaidaCaixaCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="AbaSaidaCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="AbaSaidaCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaSaidaCaixaCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaSaidaCaixaNomeDoProduto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="abaSaidaCaixaQuantidade" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jSeparator4" min="-2" pref="10" max="-2" attributes="0"/>
-                          <EmptySpace pref="208" max="32767" attributes="0"/>
+                          <EmptySpace pref="202" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="AbaSaidaLabelCodigo">
+                <Component class="javax.swing.JLabel" name="abaSaidaLabelCodigo">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="C&#xf3;digo"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="AbaSaidaCaixaCodigo">
+                <Component class="javax.swing.JTextField" name="abaSaidaCaixaCodigo">
                 </Component>
-                <Component class="javax.swing.JLabel" name="AbaSaidaLabelQuantidade">
+                <Component class="javax.swing.JLabel" name="abaSaidaLabelQuantidade">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Quantidade"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="AbaSaidaCaixaQuantidade">
+                <Component class="javax.swing.JTextField" name="abaSaidaCaixaQuantidade">
                 </Component>
-                <Component class="javax.swing.JLabel" name="AbaSaidaLabelNomeDoProduto">
+                <Component class="javax.swing.JLabel" name="abaSaidaLabelNomeDoProduto">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Nome do Produto"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="AbaSaidaCaixaNomeDoProduto">
+                <Component class="javax.swing.JTextField" name="abaSaidaCaixaNomeDoProduto">
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AbaSaidaCaixaNomeDoProdutoActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="abaSaidaCaixaNomeDoProdutoActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JSeparator" name="jSeparator4">
@@ -543,12 +537,5 @@
         </Container>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="CampoHora">
-      <Properties>
-        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-          <Connection code="produto.setData" type="code"/>
-        </Property>
-      </Properties>
-    </Component>
   </SubComponents>
 </Form>

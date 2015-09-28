@@ -26,131 +26,130 @@ public class TelaPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        AbaPrincipal = new javax.swing.JTabbedPane();
-        AbaCadastros = new javax.swing.JPanel();
-        AbaCadastrosLabelCodigo = new javax.swing.JLabel();
-        AbaCadastrosCaixaCodigo = new javax.swing.JTextField();
-        AbaCadastrosCaixaFornecedor = new javax.swing.JComboBox();
-        AbaCadastrosLabelFornecedor = new javax.swing.JLabel();
-        AbaCadastrosLabelQuantidade = new javax.swing.JLabel();
-        AbaCadastrosCaixaQuantidade = new javax.swing.JTextField();
-        AbaCadastrosLabelNomeDoProduto = new javax.swing.JLabel();
-        AbaCadastrosCaixaNomeDoProduto = new javax.swing.JTextField();
-        AbaCadastrosCaixaNotaFiscal = new javax.swing.JTextField();
-        AbaCadastrosLabelNotaFiscal = new javax.swing.JLabel();
+        abaPrincipal = new javax.swing.JTabbedPane();
+        abaCadastros = new javax.swing.JPanel();
+        abaCadastrosLabelCodigo = new javax.swing.JLabel();
+        abaCadastrosCaixaCodigo = new javax.swing.JTextField();
+        abaCadastrosCaixaFornecedor = new javax.swing.JComboBox();
+        abaCadastrosLabelFornecedor = new javax.swing.JLabel();
+        abaCadastrosLabelQuantidade = new javax.swing.JLabel();
+        abaCadastrosCaixaQuantidade = new javax.swing.JTextField();
+        abaCadastrosLabelNomeDoProduto = new javax.swing.JLabel();
+        abaCadastrosCaixaNomeDoProduto = new javax.swing.JTextField();
+        abaCadastrosCaixaNotaFiscal = new javax.swing.JTextField();
+        abaCadastrosLabelNotaFiscal = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         jPanel2 = new javax.swing.JPanel();
         AbaConsulta = new javax.swing.JPanel();
-        AbaConsultaLabelNomeDoProduto = new javax.swing.JLabel();
-        AbaConsultaCaixaNomeDoProduto = new javax.swing.JTextField();
+        abaConsultaLabelNomeDoProduto = new javax.swing.JLabel();
+        abaConsultaCaixaNomeDoProduto = new javax.swing.JTextField();
         jSeparator2 = new javax.swing.JSeparator();
         jPanel3 = new javax.swing.JPanel();
         AbaRequisicao = new javax.swing.JPanel();
-        AbaRequisicaoLabelQuantidade = new javax.swing.JLabel();
-        AbaRequisicaoCaixaQuantidade = new javax.swing.JTextField();
-        AbaRequisicaoLabelNomeDoProduto = new javax.swing.JLabel();
-        AbaRequisicaoCaixaNomeDoProduto = new javax.swing.JTextField();
+        abaRequisicaoLabelQuantidade = new javax.swing.JLabel();
+        abaRequisicaoCaixaQuantidade = new javax.swing.JTextField();
+        abaRequisicaoLabelNomeDoProduto = new javax.swing.JLabel();
+        abaRequisicaoCaixaNomeDoProduto = new javax.swing.JTextField();
         jSeparator3 = new javax.swing.JSeparator();
         jPanel4 = new javax.swing.JPanel();
         AbaSaida = new javax.swing.JPanel();
-        AbaSaidaLabelCodigo = new javax.swing.JLabel();
-        AbaSaidaCaixaCodigo = new javax.swing.JTextField();
-        AbaSaidaLabelQuantidade = new javax.swing.JLabel();
-        AbaSaidaCaixaQuantidade = new javax.swing.JTextField();
-        AbaSaidaLabelNomeDoProduto = new javax.swing.JLabel();
-        AbaSaidaCaixaNomeDoProduto = new javax.swing.JTextField();
+        abaSaidaLabelCodigo = new javax.swing.JLabel();
+        abaSaidaCaixaCodigo = new javax.swing.JTextField();
+        abaSaidaLabelQuantidade = new javax.swing.JLabel();
+        abaSaidaCaixaQuantidade = new javax.swing.JTextField();
+        abaSaidaLabelNomeDoProduto = new javax.swing.JLabel();
+        abaSaidaCaixaNomeDoProduto = new javax.swing.JTextField();
         jSeparator4 = new javax.swing.JSeparator();
-        CampoHora = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
-        javax.swing.JMenu BotaoArquivo = new javax.swing.JMenu();
-        BotaoGerenciamento = new javax.swing.JMenu();
-        BotaoUsuario = new javax.swing.JMenu();
-        BotaoUsuarioNovo = new javax.swing.JMenuItem();
-        BotaoUsuarioEditar = new javax.swing.JMenuItem();
-        BotaoSair = new javax.swing.JMenu();
+        javax.swing.JMenu botaoArquivo = new javax.swing.JMenu();
+        botaoGerenciamento = new javax.swing.JMenu();
+        botaoUsuario = new javax.swing.JMenu();
+        botaoUsuarioNovo = new javax.swing.JMenuItem();
+        botaoUsuarioEditar = new javax.swing.JMenuItem();
+        botaoSair = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        AbaCadastrosLabelCodigo.setText("Código");
+        abaCadastrosLabelCodigo.setText("Código");
 
-        AbaCadastrosCaixaFornecedor.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        AbaCadastrosCaixaFornecedor.addActionListener(new java.awt.event.ActionListener() {
+        abaCadastrosCaixaFornecedor.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        abaCadastrosCaixaFornecedor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AbaCadastrosCaixaFornecedorActionPerformed(evt);
+                abaCadastrosCaixaFornecedorActionPerformed(evt);
             }
         });
 
-        AbaCadastrosLabelFornecedor.setText("Fornecedor");
+        abaCadastrosLabelFornecedor.setText("Fornecedor");
 
-        AbaCadastrosLabelQuantidade.setText("Quantidade");
+        abaCadastrosLabelQuantidade.setText("Quantidade");
 
-        AbaCadastrosLabelNomeDoProduto.setText("Nome do Produto");
+        abaCadastrosLabelNomeDoProduto.setText("Nome do Produto");
 
-        AbaCadastrosLabelNotaFiscal.setText("Nota Fiscal");
+        abaCadastrosLabelNotaFiscal.setText("Nota Fiscal");
 
-        javax.swing.GroupLayout AbaCadastrosLayout = new javax.swing.GroupLayout(AbaCadastros);
-        AbaCadastros.setLayout(AbaCadastrosLayout);
-        AbaCadastrosLayout.setHorizontalGroup(
-            AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AbaCadastrosLayout.createSequentialGroup()
+        javax.swing.GroupLayout abaCadastrosLayout = new javax.swing.GroupLayout(abaCadastros);
+        abaCadastros.setLayout(abaCadastrosLayout);
+        abaCadastrosLayout.setHorizontalGroup(
+            abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(abaCadastrosLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jSeparator1)
-                    .addGroup(AbaCadastrosLayout.createSequentialGroup()
-                        .addGroup(AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(AbaCadastrosLabelCodigo)
-                            .addGroup(AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(AbaCadastrosCaixaCodigo, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
-                                .addComponent(AbaCadastrosLabelQuantidade, javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(AbaCadastrosCaixaQuantidade, javax.swing.GroupLayout.Alignment.LEADING)))
+                    .addGroup(abaCadastrosLayout.createSequentialGroup()
+                        .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(abaCadastrosLabelCodigo)
+                            .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(abaCadastrosCaixaCodigo, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
+                                .addComponent(abaCadastrosLabelQuantidade, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(abaCadastrosCaixaQuantidade, javax.swing.GroupLayout.Alignment.LEADING)))
                         .addGap(18, 18, 18)
-                        .addGroup(AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(AbaCadastrosLayout.createSequentialGroup()
-                                .addGroup(AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(AbaCadastrosLabelFornecedor)
-                                    .addComponent(AbaCadastrosCaixaFornecedor, javax.swing.GroupLayout.PREFERRED_SIZE, 365, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(abaCadastrosLayout.createSequentialGroup()
+                                .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(abaCadastrosLabelFornecedor)
+                                    .addComponent(abaCadastrosCaixaFornecedor, javax.swing.GroupLayout.PREFERRED_SIZE, 365, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, 18)
-                                .addGroup(AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(AbaCadastrosCaixaNotaFiscal)
-                                    .addGroup(AbaCadastrosLayout.createSequentialGroup()
-                                        .addComponent(AbaCadastrosLabelNotaFiscal)
+                                .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(abaCadastrosCaixaNotaFiscal)
+                                    .addGroup(abaCadastrosLayout.createSequentialGroup()
+                                        .addComponent(abaCadastrosLabelNotaFiscal)
                                         .addGap(0, 98, Short.MAX_VALUE))))
-                            .addGroup(AbaCadastrosLayout.createSequentialGroup()
-                                .addComponent(AbaCadastrosLabelNomeDoProduto)
+                            .addGroup(abaCadastrosLayout.createSequentialGroup()
+                                .addComponent(abaCadastrosLabelNomeDoProduto)
                                 .addGap(0, 0, Short.MAX_VALUE))
-                            .addComponent(AbaCadastrosCaixaNomeDoProduto, javax.swing.GroupLayout.Alignment.TRAILING))))
+                            .addComponent(abaCadastrosCaixaNomeDoProduto, javax.swing.GroupLayout.Alignment.TRAILING))))
                 .addContainerGap())
         );
-        AbaCadastrosLayout.setVerticalGroup(
-            AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AbaCadastrosLayout.createSequentialGroup()
+        abaCadastrosLayout.setVerticalGroup(
+            abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(abaCadastrosLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(AbaCadastrosLabelCodigo)
-                    .addComponent(AbaCadastrosLabelFornecedor)
-                    .addComponent(AbaCadastrosLabelNotaFiscal))
+                .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(abaCadastrosLabelCodigo)
+                    .addComponent(abaCadastrosLabelFornecedor)
+                    .addComponent(abaCadastrosLabelNotaFiscal))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(AbaCadastrosCaixaFornecedor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(AbaCadastrosCaixaNotaFiscal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(AbaCadastrosCaixaCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(abaCadastrosCaixaFornecedor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(abaCadastrosCaixaNotaFiscal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(abaCadastrosCaixaCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(AbaCadastrosLabelNomeDoProduto)
-                    .addComponent(AbaCadastrosLabelQuantidade))
+                .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(abaCadastrosLabelNomeDoProduto)
+                    .addComponent(abaCadastrosLabelQuantidade))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(AbaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(AbaCadastrosCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AbaCadastrosCaixaNomeDoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(abaCadastrosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(abaCadastrosCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(abaCadastrosCaixaNomeDoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(157, Short.MAX_VALUE))
+                .addContainerGap(151, Short.MAX_VALUE))
         );
 
-        AbaPrincipal.addTab("Cadastros", AbaCadastros);
+        abaPrincipal.addTab("Cadastros", abaCadastros);
 
-        AbaConsultaLabelNomeDoProduto.setText("Nome do Produto");
+        abaConsultaLabelNomeDoProduto.setText("Nome do Produto");
 
         javax.swing.GroupLayout AbaConsultaLayout = new javax.swing.GroupLayout(AbaConsulta);
         AbaConsulta.setLayout(AbaConsultaLayout);
@@ -160,9 +159,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(AbaConsultaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(AbaConsultaLayout.createSequentialGroup()
-                        .addComponent(AbaConsultaLabelNomeDoProduto)
+                        .addComponent(abaConsultaLabelNomeDoProduto)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(AbaConsultaCaixaNomeDoProduto, javax.swing.GroupLayout.DEFAULT_SIZE, 612, Short.MAX_VALUE)
+                    .addComponent(abaConsultaCaixaNomeDoProduto, javax.swing.GroupLayout.DEFAULT_SIZE, 612, Short.MAX_VALUE)
                     .addComponent(jSeparator2, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addContainerGap())
         );
@@ -170,12 +169,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
             AbaConsultaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(AbaConsultaLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(AbaConsultaLabelNomeDoProduto)
+                .addComponent(abaConsultaLabelNomeDoProduto)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(AbaConsultaCaixaNomeDoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(abaConsultaCaixaNomeDoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(208, Short.MAX_VALUE))
+                .addContainerGap(202, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -191,7 +190,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 287, Short.MAX_VALUE)
+            .addGap(0, 281, Short.MAX_VALUE)
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel2Layout.createSequentialGroup()
                     .addGap(0, 0, 0)
@@ -199,11 +198,11 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addGap(0, 0, 0)))
         );
 
-        AbaPrincipal.addTab("Consulta", jPanel2);
+        abaPrincipal.addTab("Consulta", jPanel2);
 
-        AbaRequisicaoLabelQuantidade.setText("Quantidade");
+        abaRequisicaoLabelQuantidade.setText("Quantidade");
 
-        AbaRequisicaoLabelNomeDoProduto.setText("Nome do Produto");
+        abaRequisicaoLabelNomeDoProduto.setText("Nome do Produto");
 
         javax.swing.GroupLayout AbaRequisicaoLayout = new javax.swing.GroupLayout(AbaRequisicao);
         AbaRequisicao.setLayout(AbaRequisicaoLayout);
@@ -215,13 +214,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addGroup(AbaRequisicaoLayout.createSequentialGroup()
                         .addGroup(AbaRequisicaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(AbaRequisicaoLayout.createSequentialGroup()
-                                .addComponent(AbaRequisicaoLabelNomeDoProduto)
+                                .addComponent(abaRequisicaoLabelNomeDoProduto)
                                 .addGap(0, 450, Short.MAX_VALUE))
-                            .addComponent(AbaRequisicaoCaixaNomeDoProduto))
+                            .addComponent(abaRequisicaoCaixaNomeDoProduto))
                         .addGap(18, 18, 18)
                         .addGroup(AbaRequisicaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(AbaRequisicaoCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AbaRequisicaoLabelQuantidade)))
+                            .addComponent(abaRequisicaoCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(abaRequisicaoLabelQuantidade)))
                     .addComponent(jSeparator3))
                 .addContainerGap())
         );
@@ -230,15 +229,15 @@ public class TelaPrincipal extends javax.swing.JFrame {
             .addGroup(AbaRequisicaoLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(AbaRequisicaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(AbaRequisicaoLabelNomeDoProduto)
-                    .addComponent(AbaRequisicaoLabelQuantidade))
+                    .addComponent(abaRequisicaoLabelNomeDoProduto)
+                    .addComponent(abaRequisicaoLabelQuantidade))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(AbaRequisicaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(AbaRequisicaoCaixaNomeDoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AbaRequisicaoCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(abaRequisicaoCaixaNomeDoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(abaRequisicaoCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(208, Short.MAX_VALUE))
+                .addContainerGap(202, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -254,7 +253,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 287, Short.MAX_VALUE)
+            .addGap(0, 281, Short.MAX_VALUE)
             .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel3Layout.createSequentialGroup()
                     .addGap(0, 0, 0)
@@ -262,17 +261,17 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addGap(0, 0, 0)))
         );
 
-        AbaPrincipal.addTab("Requisição", jPanel3);
+        abaPrincipal.addTab("Requisição", jPanel3);
 
-        AbaSaidaLabelCodigo.setText("Código");
+        abaSaidaLabelCodigo.setText("Código");
 
-        AbaSaidaLabelQuantidade.setText("Quantidade");
+        abaSaidaLabelQuantidade.setText("Quantidade");
 
-        AbaSaidaLabelNomeDoProduto.setText("Nome do Produto");
+        abaSaidaLabelNomeDoProduto.setText("Nome do Produto");
 
-        AbaSaidaCaixaNomeDoProduto.addActionListener(new java.awt.event.ActionListener() {
+        abaSaidaCaixaNomeDoProduto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                AbaSaidaCaixaNomeDoProdutoActionPerformed(evt);
+                abaSaidaCaixaNomeDoProdutoActionPerformed(evt);
             }
         });
 
@@ -285,18 +284,18 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addGroup(AbaSaidaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(AbaSaidaLayout.createSequentialGroup()
                         .addGroup(AbaSaidaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(AbaSaidaCaixaCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AbaSaidaLabelCodigo))
+                            .addComponent(abaSaidaCaixaCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(abaSaidaLabelCodigo))
                         .addGap(18, 18, 18)
                         .addGroup(AbaSaidaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(AbaSaidaLayout.createSequentialGroup()
-                                .addComponent(AbaSaidaLabelNomeDoProduto)
+                                .addComponent(abaSaidaLabelNomeDoProduto)
                                 .addGap(0, 371, Short.MAX_VALUE))
-                            .addComponent(AbaSaidaCaixaNomeDoProduto))
+                            .addComponent(abaSaidaCaixaNomeDoProduto))
                         .addGap(18, 18, 18)
                         .addGroup(AbaSaidaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(AbaSaidaCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AbaSaidaLabelQuantidade)))
+                            .addComponent(abaSaidaCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(abaSaidaLabelQuantidade)))
                     .addComponent(jSeparator4))
                 .addContainerGap())
         );
@@ -305,17 +304,17 @@ public class TelaPrincipal extends javax.swing.JFrame {
             .addGroup(AbaSaidaLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(AbaSaidaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(AbaSaidaLabelCodigo)
-                    .addComponent(AbaSaidaLabelNomeDoProduto)
-                    .addComponent(AbaSaidaLabelQuantidade))
+                    .addComponent(abaSaidaLabelCodigo)
+                    .addComponent(abaSaidaLabelNomeDoProduto)
+                    .addComponent(abaSaidaLabelQuantidade))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(AbaSaidaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(AbaSaidaCaixaCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AbaSaidaCaixaNomeDoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(AbaSaidaCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(abaSaidaCaixaCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(abaSaidaCaixaNomeDoProduto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(abaSaidaCaixaQuantidade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(208, Short.MAX_VALUE))
+                .addContainerGap(202, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -331,7 +330,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 287, Short.MAX_VALUE)
+            .addGap(0, 281, Short.MAX_VALUE)
             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel4Layout.createSequentialGroup()
                     .addGap(0, 0, 0)
@@ -339,29 +338,27 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addGap(0, 0, 0)))
         );
 
-        AbaPrincipal.addTab("Saída", jPanel4);
+        abaPrincipal.addTab("Saída", jPanel4);
 
-        CampoHora.setText(produto.setData);
+        botaoArquivo.setText("Arquivo");
+        jMenuBar1.add(botaoArquivo);
 
-        BotaoArquivo.setText("Arquivo");
-        jMenuBar1.add(BotaoArquivo);
+        botaoGerenciamento.setText("Gerenciamento");
 
-        BotaoGerenciamento.setText("Gerenciamento");
+        botaoUsuario.setText("Usuário");
 
-        BotaoUsuario.setText("Usuário");
+        botaoUsuarioNovo.setText("Novo");
+        botaoUsuario.add(botaoUsuarioNovo);
 
-        BotaoUsuarioNovo.setText("Novo");
-        BotaoUsuario.add(BotaoUsuarioNovo);
+        botaoUsuarioEditar.setText("Editar");
+        botaoUsuario.add(botaoUsuarioEditar);
 
-        BotaoUsuarioEditar.setText("Editar");
-        BotaoUsuario.add(BotaoUsuarioEditar);
+        botaoGerenciamento.add(botaoUsuario);
 
-        BotaoGerenciamento.add(BotaoUsuario);
+        jMenuBar1.add(botaoGerenciamento);
 
-        jMenuBar1.add(BotaoGerenciamento);
-
-        BotaoSair.setText("Sair");
-        jMenuBar1.add(BotaoSair);
+        botaoSair.setText("Sair");
+        jMenuBar1.add(botaoSair);
 
         setJMenuBar(jMenuBar1);
 
@@ -369,30 +366,25 @@ public class TelaPrincipal extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(AbaPrincipal)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(CampoHora)
-                .addContainerGap())
+            .addComponent(abaPrincipal)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(CampoHora)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(AbaPrincipal))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 26, Short.MAX_VALUE)
+                .addComponent(abaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void AbaCadastrosCaixaFornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AbaCadastrosCaixaFornecedorActionPerformed
+    private void abaCadastrosCaixaFornecedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_abaCadastrosCaixaFornecedorActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_AbaCadastrosCaixaFornecedorActionPerformed
+    }//GEN-LAST:event_abaCadastrosCaixaFornecedorActionPerformed
 
-    private void AbaSaidaCaixaNomeDoProdutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AbaSaidaCaixaNomeDoProdutoActionPerformed
+    private void abaSaidaCaixaNomeDoProdutoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_abaSaidaCaixaNomeDoProdutoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_AbaSaidaCaixaNomeDoProdutoActionPerformed
+    }//GEN-LAST:event_abaSaidaCaixaNomeDoProdutoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -437,39 +429,38 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel AbaCadastros;
-    private javax.swing.JTextField AbaCadastrosCaixaCodigo;
-    private javax.swing.JComboBox AbaCadastrosCaixaFornecedor;
-    private javax.swing.JTextField AbaCadastrosCaixaNomeDoProduto;
-    private javax.swing.JTextField AbaCadastrosCaixaNotaFiscal;
-    private javax.swing.JTextField AbaCadastrosCaixaQuantidade;
-    private javax.swing.JLabel AbaCadastrosLabelCodigo;
-    private javax.swing.JLabel AbaCadastrosLabelFornecedor;
-    private javax.swing.JLabel AbaCadastrosLabelNomeDoProduto;
-    private javax.swing.JLabel AbaCadastrosLabelNotaFiscal;
-    private javax.swing.JLabel AbaCadastrosLabelQuantidade;
     private javax.swing.JPanel AbaConsulta;
-    private javax.swing.JTextField AbaConsultaCaixaNomeDoProduto;
-    private javax.swing.JLabel AbaConsultaLabelNomeDoProduto;
-    private javax.swing.JTabbedPane AbaPrincipal;
     private javax.swing.JPanel AbaRequisicao;
-    private javax.swing.JTextField AbaRequisicaoCaixaNomeDoProduto;
-    private javax.swing.JTextField AbaRequisicaoCaixaQuantidade;
-    private javax.swing.JLabel AbaRequisicaoLabelNomeDoProduto;
-    private javax.swing.JLabel AbaRequisicaoLabelQuantidade;
     private javax.swing.JPanel AbaSaida;
-    private javax.swing.JTextField AbaSaidaCaixaCodigo;
-    private javax.swing.JTextField AbaSaidaCaixaNomeDoProduto;
-    private javax.swing.JTextField AbaSaidaCaixaQuantidade;
-    private javax.swing.JLabel AbaSaidaLabelCodigo;
-    private javax.swing.JLabel AbaSaidaLabelNomeDoProduto;
-    private javax.swing.JLabel AbaSaidaLabelQuantidade;
-    private javax.swing.JMenu BotaoGerenciamento;
-    private javax.swing.JMenu BotaoSair;
-    private javax.swing.JMenu BotaoUsuario;
-    private javax.swing.JMenuItem BotaoUsuarioEditar;
-    private javax.swing.JMenuItem BotaoUsuarioNovo;
-    private javax.swing.JLabel CampoHora;
+    private javax.swing.JPanel abaCadastros;
+    private javax.swing.JTextField abaCadastrosCaixaCodigo;
+    private javax.swing.JComboBox abaCadastrosCaixaFornecedor;
+    private javax.swing.JTextField abaCadastrosCaixaNomeDoProduto;
+    private javax.swing.JTextField abaCadastrosCaixaNotaFiscal;
+    private javax.swing.JTextField abaCadastrosCaixaQuantidade;
+    private javax.swing.JLabel abaCadastrosLabelCodigo;
+    private javax.swing.JLabel abaCadastrosLabelFornecedor;
+    private javax.swing.JLabel abaCadastrosLabelNomeDoProduto;
+    private javax.swing.JLabel abaCadastrosLabelNotaFiscal;
+    private javax.swing.JLabel abaCadastrosLabelQuantidade;
+    private javax.swing.JTextField abaConsultaCaixaNomeDoProduto;
+    private javax.swing.JLabel abaConsultaLabelNomeDoProduto;
+    private javax.swing.JTabbedPane abaPrincipal;
+    private javax.swing.JTextField abaRequisicaoCaixaNomeDoProduto;
+    private javax.swing.JTextField abaRequisicaoCaixaQuantidade;
+    private javax.swing.JLabel abaRequisicaoLabelNomeDoProduto;
+    private javax.swing.JLabel abaRequisicaoLabelQuantidade;
+    private javax.swing.JTextField abaSaidaCaixaCodigo;
+    private javax.swing.JTextField abaSaidaCaixaNomeDoProduto;
+    private javax.swing.JTextField abaSaidaCaixaQuantidade;
+    private javax.swing.JLabel abaSaidaLabelCodigo;
+    private javax.swing.JLabel abaSaidaLabelNomeDoProduto;
+    private javax.swing.JLabel abaSaidaLabelQuantidade;
+    private javax.swing.JMenu botaoGerenciamento;
+    private javax.swing.JMenu botaoSair;
+    private javax.swing.JMenu botaoUsuario;
+    private javax.swing.JMenuItem botaoUsuarioEditar;
+    private javax.swing.JMenuItem botaoUsuarioNovo;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
