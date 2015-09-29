@@ -1,5 +1,5 @@
-package FORMULARIOS;
-import SISLOGBD.conectaBD;
+package PacoteInterface.Interface;
+import SISLOGBD.ConectaBD();
 import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -14,12 +14,12 @@ public class jflogin extends javax.swing.JFrame {
 
    
     public jflogin() throws SQLException, ClassNotFoundException {
-        con=conectaBD.conectaBD();
+        con=ConectaBD.conectaBD();
         initComponents();
         this.setLocationRelativeTo(null); //COMANDO SERVE PARA CENTRALIZAR O FORMULARIO
        }
     public void logar(){
-        String sql ="select*from funcionario where login=? and senha = ?";
+        String sql ="select*from funcionario where usuario=? and senha = ?";
     try{
         //Verificando usuário e senha de acordo com oque está no banco
         pst = con.prepareStatement(sql);
