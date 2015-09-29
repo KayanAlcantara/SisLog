@@ -1,27 +1,29 @@
 package SISLOGBD;
 
 //conexão com o banco de dados SGE
-import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.Connection;
 import java.sql.SQLException;
-import javax.swing.JOptionPane;
 
-public class ConectaBD{
+
+public class conectaBD {
+    private final Connection connection; 
     
-    public static Connection conectaBD() throws SQLException, ClassNotFoundException{
-    
-     try{
+    public conectaBD() throws ClassNotFoundException, SQLException{
          Class.forName("com.mysql.jdbc.Driver");
-         Connection con = DriverManager.getConnection("jdbc:mysql://localhost/SGE","root","1234");
-         //JOptionPane.showMessageDialog(null, "CONECTADO COM SUCESSO");
-         return con;
+         connection = DriverManager.getConnection("jdbc:mysql://localhost/SGE","root","1234");
+         System.out.println("BANCO CONECTADO COM SUCESSO!!");
+         
      }
-      catch(SQLException erro){
-              JOptionPane.showMessageDialog(null, "FALHA AO CONECTAR COM BANCO");
-              
-                      }     
-        return null;
-      
-    }
-}
     
+    
+    public static void notmain(String[] args) {
+        try{
+            conectaBD conectaBD = new conectaBD();
+        }
+        catch(ClassNotFoundException | SQLException e){
+            System.out.println("NÃO FOI POSSIVEL ESTABELECER CONEXÇÃO");
+        }
+    }
+
+}
