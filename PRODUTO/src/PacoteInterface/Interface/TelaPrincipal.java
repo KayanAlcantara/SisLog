@@ -20,6 +20,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
      */
     public TelaPrincipal() {
         initComponents();
+        this.setLocationRelativeTo(null);
     
         jData.setText(objDataHora.MostraData());
         jHora.setText(objDataHora.MostraHora());
@@ -180,7 +181,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        abaPrincipal.addTab("Cadastros", null, abaCadastros);
+        abaPrincipal.addTab("Cadastros", abaCadastros);
 
         abaConsultaLabelNomeDoProduto.setText("Nome do Produto");
 
@@ -454,11 +455,14 @@ public class TelaPrincipal extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+                .addGap(0, 704, Short.MAX_VALUE)
                 .addComponent(jData)
                 .addGap(18, 18, 18)
                 .addComponent(jHora))
-            .addComponent(abaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 657, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(abaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 657, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -467,7 +471,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addComponent(jHora)
                     .addComponent(jData))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(abaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 421, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(abaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 421, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(139, Short.MAX_VALUE))
         );
 
         pack();

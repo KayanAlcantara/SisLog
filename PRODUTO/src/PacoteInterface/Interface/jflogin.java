@@ -1,5 +1,5 @@
 package PacoteInterface.Interface;
-import SISLOGBD.ConectaBD();
+import SISLOGBD.ConectaBD;
 import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -19,7 +19,7 @@ public class jflogin extends javax.swing.JFrame {
         this.setLocationRelativeTo(null); //COMANDO SERVE PARA CENTRALIZAR O FORMULARIO
        }
     public void logar(){
-        String sql ="select*from funcionario where usuario=? and senha = ?";
+        String sql ="select*from funcionarios where usuario=? and senha = ?";
     try{
         //Verificando usuário e senha de acordo com oque está no banco
         pst = con.prepareStatement(sql);
@@ -29,7 +29,7 @@ public class jflogin extends javax.swing.JFrame {
         
         
         if(rs.next()){ 
-            principal frm = new principal(); 
+            TelaPrincipal frm = new TelaPrincipal(); 
             frm.setVisible(true);
         }
         else{
@@ -180,9 +180,7 @@ public class jflogin extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(() -> {
             try {
                 new jflogin().setVisible(true);
-            } catch (SQLException ex) {
-                Logger.getLogger(jflogin.class.getName()).log(Level.SEVERE, null, ex);
-            } catch (ClassNotFoundException ex) {
+            } catch (SQLException | ClassNotFoundException ex) {
                 Logger.getLogger(jflogin.class.getName()).log(Level.SEVERE, null, ex);
             }
         });
