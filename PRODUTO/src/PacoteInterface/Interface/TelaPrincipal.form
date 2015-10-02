@@ -55,7 +55,7 @@
         <Menu class="javax.swing.JMenu" name="botaoSobre">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/PacoteInterface/icones/exclamation.png"/>
+              <Image iconType="3" name="/PacoteInterface/icones/SISLOG ICON.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Sobre"/>
           </Properties>
@@ -66,6 +66,11 @@
               <Image iconType="3" name="/PacoteInterface/icones/door_in.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Sair"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor Padr&#xe3;o"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="horizontalTextPosition" type="int" value="2"/>
           </Properties>
         </Menu>
       </SubComponents>
@@ -94,17 +99,13 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace min="0" pref="704" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
               <Component id="jData" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="jHora" min="-2" max="-2" attributes="0"/>
           </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="abaPrincipal" min="-2" pref="657" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-          </Group>
+          <Component id="abaPrincipal" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -116,7 +117,6 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="abaPrincipal" min="-2" pref="421" max="-2" attributes="0"/>
-              <EmptySpace pref="139" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -163,7 +163,7 @@
                                           <Component id="abaCadastrosCaixaNotaFiscal" max="32767" attributes="0"/>
                                           <Group type="102" attributes="0">
                                               <Component id="abaCadastrosLabelNotaFiscal" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace min="0" pref="118" max="32767" attributes="0"/>
+                                              <EmptySpace min="0" pref="134" max="32767" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
@@ -304,7 +304,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="652" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="668" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
@@ -340,7 +340,7 @@
                                   <Component id="abaConsultaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
-                              <Component id="abaConsultaCaixaNomeDoProduto" alignment="0" pref="632" max="32767" attributes="0"/>
+                              <Component id="abaConsultaCaixaNomeDoProduto" alignment="0" pref="648" max="32767" attributes="0"/>
                               <Component id="jSeparator2" alignment="1" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -414,7 +414,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="652" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="668" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
@@ -450,7 +450,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
                                           <Component id="abaRequisicaoLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="0" pref="470" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="486" max="32767" attributes="0"/>
                                       </Group>
                                       <Component id="abaRequisicaoCaixaNomeDoProduto" max="32767" attributes="0"/>
                                   </Group>
@@ -546,7 +546,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="652" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="668" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
@@ -587,7 +587,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="abaSaidaLabelNomeDoProduto" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="0" pref="391" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="407" max="32767" attributes="0"/>
                                       </Group>
                                       <Component id="abaSaidaCaixaNomeDoProduto" alignment="0" max="32767" attributes="0"/>
                                   </Group>
@@ -674,9 +674,6 @@
     </Container>
     <Component class="javax.swing.JLabel" name="jHora">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/PacoteInterface/icones/clock.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
           <Connection code="objDataHora.MostraData()" type="code"/>
         </Property>
@@ -684,9 +681,6 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jData">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/PacoteInterface/icones/calendar_1.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
           <Connection code="objDataHora.MostraData()" type="code"/>
         </Property>

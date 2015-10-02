@@ -138,7 +138,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                                     .addComponent(abaCadastrosCaixaNotaFiscal)
                                     .addGroup(abaCadastrosLayout.createSequentialGroup()
                                         .addComponent(abaCadastrosLabelNotaFiscal)
-                                        .addGap(0, 118, Short.MAX_VALUE))))
+                                        .addGap(0, 134, Short.MAX_VALUE))))
                             .addGroup(abaCadastrosLayout.createSequentialGroup()
                                 .addComponent(abaCadastrosLabelNomeDoProduto)
                                 .addGap(0, 0, Short.MAX_VALUE))
@@ -201,7 +201,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addGroup(abaConsultaLayout.createSequentialGroup()
                         .addComponent(abaConsultaLabelNomeDoProduto)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(abaConsultaCaixaNomeDoProduto, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                    .addComponent(abaConsultaCaixaNomeDoProduto, javax.swing.GroupLayout.DEFAULT_SIZE, 648, Short.MAX_VALUE)
                     .addComponent(jSeparator2, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, abaConsultaLayout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
@@ -230,7 +230,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 652, Short.MAX_VALUE)
+            .addGap(0, 668, Short.MAX_VALUE)
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel2Layout.createSequentialGroup()
                     .addGap(0, 0, 0)
@@ -270,7 +270,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                         .addGroup(abaRequisicaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(abaRequisicaoLayout.createSequentialGroup()
                                 .addComponent(abaRequisicaoLabelNomeDoProduto)
-                                .addGap(0, 470, Short.MAX_VALUE))
+                                .addGap(0, 486, Short.MAX_VALUE))
                             .addComponent(abaRequisicaoCaixaNomeDoProduto))
                         .addGap(18, 18, 18)
                         .addGroup(abaRequisicaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -308,7 +308,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 652, Short.MAX_VALUE)
+            .addGap(0, 668, Short.MAX_VALUE)
             .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel3Layout.createSequentialGroup()
                     .addGap(0, 0, 0)
@@ -357,7 +357,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                         .addGroup(abaSaidaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(abaSaidaLayout.createSequentialGroup()
                                 .addComponent(abaSaidaLabelNomeDoProduto)
-                                .addGap(0, 391, Short.MAX_VALUE))
+                                .addGap(0, 407, Short.MAX_VALUE))
                             .addComponent(abaSaidaCaixaNomeDoProduto))
                         .addGap(18, 18, 18)
                         .addGroup(abaSaidaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -393,7 +393,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 652, Short.MAX_VALUE)
+            .addGap(0, 668, Short.MAX_VALUE)
             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel4Layout.createSequentialGroup()
                     .addGap(0, 0, 0)
@@ -412,10 +412,8 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         abaPrincipal.addTab("Saída", jPanel4);
 
-        jHora.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/clock.png"))); // NOI18N
         jHora.setText(objDataHora.MostraData());
 
-        jData.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/calendar_1.png"))); // NOI18N
         jData.setText(objDataHora.MostraData());
 
         botaoArquivo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/computer.png"))); // NOI18N
@@ -440,12 +438,15 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(botaoGerenciamento);
 
-        botaoSobre.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/exclamation.png"))); // NOI18N
+        botaoSobre.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/SISLOG ICON.png"))); // NOI18N
         botaoSobre.setText("Sobre");
         jMenuBar1.add(botaoSobre);
 
         botaoSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PacoteInterface/icones/door_in.png"))); // NOI18N
         botaoSair.setText("Sair");
+        botaoSair.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        botaoSair.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        botaoSair.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         jMenuBar1.add(botaoSair);
 
         setJMenuBar(jMenuBar1);
@@ -455,14 +456,11 @@ public class TelaPrincipal extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(0, 704, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jData)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jHora))
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(abaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 657, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(abaPrincipal)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -471,8 +469,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     .addComponent(jHora)
                     .addComponent(jData))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(abaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 421, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(139, Short.MAX_VALUE))
+                .addComponent(abaPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, 421, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
