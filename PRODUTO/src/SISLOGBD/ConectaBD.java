@@ -13,7 +13,7 @@ public class ConectaBD{
      try{
          Class.forName("com.mysql.jdbc.Driver");
          Connection con = DriverManager.getConnection("jdbc:mysql://localhost/SisLog","root","1234");
-         JOptionPane.showMessageDialog(null, "CONECTADO COM SUCESSO");
+         //JOptionPane.showMessageDialog(null, "CONECTADO COM SUCESSO");
          return con;
      }
       catch(SQLException erro){
